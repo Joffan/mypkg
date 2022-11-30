@@ -1,0 +1,26 @@
+[0.475s] Invoking command in '/home/joffan/ros2_ws/src/mypkg': PYTHONPATH=/home/joffan/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/joffan/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/joffan/ros2_ws/src/mypkg/install/mypkg --record /home/joffan/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.609s] running egg_info
+[0.609s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.610s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.610s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.610s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.611s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.612s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.612s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.613s] running build
+[0.613s] running build_py
+[0.613s] running install
+[0.613s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.613s]   warnings.warn(
+[0.613s] running install_lib
+[0.614s] running install_data
+[0.614s] copying package.xml -> /home/joffan/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.615s] copying launch/talk_listen.launch.py -> /home/joffan/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.615s] running install_egg_info
+[0.616s] removing '/home/joffan/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.616s] Copying build/mypkg/mypkg.egg-info to /home/joffan/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.617s] running install_scripts
+[0.631s] Installing listener script to /home/joffan/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.632s] Installing talker script to /home/joffan/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.632s] writing list of installed files to '/home/joffan/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.647s] Invoked command in '/home/joffan/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/joffan/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/joffan/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/joffan/ros2_ws/src/mypkg/install/mypkg --record /home/joffan/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
