@@ -3,20 +3,23 @@ from rclpy.node import Node
 from std_msgs.msg import Int16
 
 class Talker():
-    def __init__(self):  # オブジェクトを作ると呼ばれる関数
+
+    def __init__(self, node):  # オブジェクトを作ると呼ばれる関数
         self.pub = node.create_publisher(Int16, "countup", 10)
         self.n = 0
+        node.create_timer(0.5, self.cb)
          # ↑ selfはオブジェクトのこと
-         # ↑ オブジェクトにひとつパブリッシャと変数をもたせる
-rclpy.init()
-node = Node("talker")
-talker = Talker()
+    def cb(self):      #インデントをあげてselfを引数に
+        msg = Int16()
+        msg.data = self.n     #talker -> self
+        self.pub.publish(msg) #talker -> self
+        self.n += 1           #talker -> self
 
-def cb():
-    msg = Int16()
-    msg.data =talker.n
-    talker.pub.publish(msg)
-    talker.n += 1
+def main():
+    rclpy.init()
+    node = Node("talker")
+    talker = Talker(node)
+    rclpy.spin(node)
 
-node.create_timer(0.5, cb)
-rclpy.spin(node)
+if __name__ =='__main__':
+    main()
