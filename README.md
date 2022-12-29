@@ -17,6 +17,14 @@
   * 和訳
     * リスナーは、CountupからタイプInt16のメッセージを受信し、出力します。
      
+##インストール方法
+* ターミナルに書き込むこと。
+```
+$ git clone https://github.com/Joffan/mypkg
+$ cd mypkg
+```
+
+
 ## ビルドやり方
 * 1
 ```
