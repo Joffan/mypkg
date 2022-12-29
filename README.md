@@ -10,11 +10,11 @@
  
 ## Talker とListener 説明
 * Talker sends messages with type Int16 through Countup.
-  * 和訳
-   * Talkerは、タイプInt16の完全カウントアップでメッセージを送信します。
+ * 和訳
+    * Talkerは、タイプInt16の完全カウントアップでメッセージを送信します。
 　　
 * Listener receives messages of type Int16 from Countup and outputs them.
-  * 和訳
+ * 和訳
     * リスナーは、CountupからタイプInt16のメッセージを受信し、出力します。
      
 ## インストール方法
@@ -26,11 +26,11 @@ $ cd mypkg
 
 
 ## ビルドやり方
-1
+1)
 ```
 colcon build
 ```
-2
+2)
 ```
 source ~/.bashrc
 ```
@@ -85,7 +85,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ##  テスト 環境
 * Ubuntu 22.04 LTS
 
-## LICENSE
+## LICENSE/権利表示
  * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および許可が許可されています。
  * このパッケージのコードは千葉工業大学の上田　隆一先生スライドの許可を得て自身の著作としています。
  * 2022 Joffan Matthews Tanubrata
