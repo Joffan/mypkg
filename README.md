@@ -40,8 +40,9 @@ $ ros2 run mypkg listener
 ```
 $ ros2 run mypkg talker 
 ```
-* 別の方法として、このやり方は一つのターミナルで同時に実行ことができます。
-  * 端末　2.2
+別の方法として、このやり方は一つのターミナルで同時に実行ことができます。
+ 
+* 端末　2.2
 ```
 ros2 launch mypkg talk_listen.launch.py
 ```
