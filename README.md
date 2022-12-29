@@ -7,7 +7,7 @@
 ##　概要
 * countupという名のトピックを介して16bitの符号つき整数型のメッセージをtalker.py,listener.pyという名の２つのノードでパブリッシュ並びにサブスクライブするros2用のパッケージ
 
-## ビルド
+## ビルドやり方
 ```
 colcon build
 ```
@@ -20,19 +20,22 @@ source ~/.bashrc
   * Python 3.10
 
 ## 実行方法　(listener とtalker)
+* 端末1
 ```
 $ ros2 run mypkg listener
 ```
+* 端末2.1
 ```
 $ ros2 run mypkg talker 
 ```
 * 別の方法として、このやり方は一つのターミナルで同時に実行ことができます。
+  * 端末　2.2
 ```
 ros2 launch mypkg talk_listen.launch.py
 ```
 
 ## Result (Listener and Talker )/ 結果
-* listener
+* Listener
 ```
 $ ros2 run mypkg listener
 [INFO] [1671701267.171804400] [listener]: Listen: 0
@@ -59,7 +62,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ```
 
 ##  テスト 環境
-* Ubuntu 22.04
+* Ubuntu 22.04 LTS
 
 ## LICENSE
  * このソフトウェアパッケージは、３条項BSDライセンスの下、再配布および許可が許可されています。
