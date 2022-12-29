@@ -1,13 +1,19 @@
 ## MYPKG
-* このリポジトリは未来ロボティクス学科のロボットシステム学の授業の課題で作ったものをあげるためのものです
-![test](https://github.com/Joffan/mypkg/actions/workflows/test.yml/badge.svg)
-![test](https://img.shields.io/badge/ros2-humble-blue)
-![test](https://img.shields.io/badge/python-v3.10-blue)
+このリポジトリは未来ロボティクス学科のロボットシステム学の授業の課題で作ったものをあげるためのものです
+* ![test](https://github.com/Joffan/mypkg/actions/workflows/test.yml/badge.svg)
+* ![test](https://img.shields.io/badge/ros2-humble-blue)
+* ![test](https://img.shields.io/badge/python-v3.10-blue)
 
 ##　概要
 * countupという名のトピックを介して16bitの符号つき整数型のメッセージをtalker.py,listener.pyという名の２つのノードでパブリッシュ並びにサブスクライブするros2用のパッケージ
 
-
+## ビルド
+```
+colcon build
+```
+```
+source ~/.bashrc
+```
 ## 必要ソフトウエア
   * Ubuntu 22.04
   * ROS2 humble 
@@ -40,8 +46,8 @@ $ ros2 run mypkg listener
 ....
 ```
 * Talker  
-$ ros2 launch mypkg talk_listen.launch.py
 ```
+$ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1671768364.680333300] [listener]: Listen: 0
 [listener-2] [INFO] [1671768365.140367600] [listener]: Listen: 1
 [listener-2] [INFO] [1671768365.640273900] [listener]: Listen: 2
