@@ -11,16 +11,18 @@
 ## Talker とListener 説明
 * Talker sends messages with type Int16 through Countup.
   * 和訳
-    Talkerは、タイプInt16の完全カウントアップでメッセージを送信します。
+   * Talkerは、タイプInt16の完全カウントアップでメッセージを送信します。
 　　
 * Listener receives messages of type Int16 from Countup and outputs them.
   * 和訳
-    リスナーは、CountupからタイプInt16のメッセージを受信し、出力します。
+    * リスナーは、CountupからタイプInt16のメッセージを受信し、出力します。
      
 ## ビルドやり方
+* 1
 ```
 colcon build
 ```
+* 2
 ```
 source ~/.bashrc
 ```
