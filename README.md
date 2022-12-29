@@ -4,9 +4,19 @@
 * ![test](https://img.shields.io/badge/ros2-humble-blue)
 * ![test](https://img.shields.io/badge/python-v3.10-blue)
 
-##概要
-* countupという名のトピックを介して16bitの符号つき整数型のメッセージをtalker.py,listener.pyという名の２つのノードでパブリッシュ並びにサブスクライブするros2用のパッケージ
-
+## 概要
+* Countup is a package for ROS2 to publish and subscribe with a 16bit signed integer messages on two nodes
+* Countupは、ROS2が2つのノードで16ビットの署名付き整数メッセージをパブリッシュおよびサブスクライブするためのパッケージです
+ 
+## Talker とListener 説明
+* Talker sends messages with type Int16 through Countup.
+  * 和訳
+    Talkerは、タイプInt16の完全カウントアップでメッセージを送信します。
+　　
+* Listener receives messages of type Int16 from Countup and outputs them.
+  * 和訳
+    リスナーは、CountupからタイプInt16のメッセージを受信し、出力します。
+     
 ## ビルドやり方
 ```
 colcon build
@@ -65,8 +75,8 @@ $ ros2 launch mypkg talk_listen.launch.py
 * Ubuntu 22.04 LTS
 
 ## LICENSE
- * このソフトウェアパッケージは、３条項BSDライセンスの下、再配布および許可が許可されています。
- * LICENSE
+ * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および許可が許可されています。
  * このパッケージのコードは千葉工業大学の上田　隆一先生スライドの許可を得て自身の著作としています。
  * 2022 Joffan Matthews Tanubrata
+ * License
 
