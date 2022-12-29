@@ -78,5 +78,6 @@ $ ros2 launch mypkg talk_listen.launch.py
  * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および許可が許可されています。
  * このパッケージのコードは千葉工業大学の上田　隆一先生スライドの許可を得て自身の著作としています。
  * 2022 Joffan Matthews Tanubrata
- * License
+ * LICENSE
+
 
