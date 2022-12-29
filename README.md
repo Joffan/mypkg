@@ -17,7 +17,7 @@
   * 和訳
     * リスナーは、CountupからタイプInt16のメッセージを受信し、出力します。
      
-##インストール方法
+## インストール方法
 * ターミナルに書き込むこと。
 ```
 $ git clone https://github.com/Joffan/mypkg
@@ -26,11 +26,11 @@ $ cd mypkg
 
 
 ## ビルドやり方
-* 1
+1
 ```
 colcon build
 ```
-* 2
+2
 ```
 source ~/.bashrc
 ```
