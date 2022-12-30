@@ -36,7 +36,7 @@ source ~/.bashrc
 ```
 ## 必要ソフトウエア
   * Ubuntu 22.04
-  * ROS2 humble 
+  * ROS2 foxy 
   * Python 3.10
 
 ## 実行方法　(listener とtalker)
