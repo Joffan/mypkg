@@ -8,7 +8,7 @@
 * Countup is a package for ROS2 to publish and subscribe with a 16bit signed integer messages on two nodes
 * Countupは、ROS2が2つのノードで16ビットの署名付き整数メッセージをパブリッシュおよびサブスクライブするためのパッケージです
 
-##　インストール方法
+## インストール方法
 * ros2をダウンロードした環境で以下のコマンドを実行
 
 ``
