@@ -24,7 +24,8 @@ $ git clone https://github.com/Joffan/mypkg.git
     * リスナーは、CountupからタイプInt16のメッセージを受信し、出力します。
 
 ## トピック
-* <https://www.itaccess.co.jp/cms/content/uploads/2021/08/ros-talker-listener.png>
+* talker and listner graph to understand the relation.
+* <img width="373" alt="画像1" src="https://user-images.githubusercontent.com/115678367/211147023-e18966d8-9739-447a-9a6b-f9b1413182dc.png">
 ## ビルドやり方
 1)
 ```
