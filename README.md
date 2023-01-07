@@ -49,9 +49,7 @@ $ ros2 run mypkg listener
 * 端末2.1 (Receive and display messages from talker . If talker is not running, nothing is displayed)
 ```
 $ ros2 run mypkg talker 
-```
-別の方法として、このやり方は一つのターミナルで同時に実行ことができます。
- 
+``` 
 * Launch(Talker and listener can run simultaneously.)
 ```
 ros2 launch mypkg talk_listen.launch.py
