@@ -7,6 +7,12 @@
 ## 概要
 * Countup is a package for ROS2 to publish and subscribe with a 16bit signed integer messages on two nodes
 * Countupは、ROS2が2つのノードで16ビットの署名付き整数メッセージをパブリッシュおよびサブスクライブするためのパッケージです
+
+##　インストール方法
+* ros2をダウンロードした環境で以下のコマンドを実行
+``
+$ git clone https://github.com/Joffan/mypkg.git
+``
  
 ## Talker とListener 説明
 * Talker sends messages with type Int16 through Countup.
@@ -17,6 +23,8 @@
  * 和訳
     * リスナーは、CountupからタイプInt16のメッセージを受信し、出力します。
 
+## トピック
+* <https://www.itaccess.co.jp/cms/content/uploads/2021/08/ros-talker-listener.png>
 ## ビルドやり方
 1)
 ```
