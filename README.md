@@ -56,7 +56,7 @@ ros2 launch mypkg talk_listen.launch.py
 ```
 
 ## Result (Listener and Talker )/ 結果
-* Listener
+* **istener**
 ```
 $ ros2 run mypkg listener
 [INFO] [1671701267.171804400] [listener]: Listen: 0
@@ -69,7 +69,7 @@ $ ros2 run mypkg listener
 [INFO] [1671701270.672327900] [listener]: Listen: 7
 ....
 ```
-* Talker  
+* ** Talker **  
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1671768364.680333300] [listener]: Listen: 0
@@ -85,9 +85,9 @@ $ ros2 launch mypkg talk_listen.launch.py
 ##  テスト 環境
 * Ubuntu 22.04 LTS
 * ROS2 foxy
-## LICENSE/権利表示
+## LICENCE/権利表示
  * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および許可が許可されています。
  * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたも    のです.
- * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+    * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
  * ©2022 Joffan Matthews Tanubrata 
-
+ * LICENCE
